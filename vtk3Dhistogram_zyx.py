@@ -467,5 +467,5 @@ class VTK3Dhist():
 ###import the module ahead by "from vtk3Dhistogram import *".
 myvtk = VTK3Dhist()
 file_input = './xyz.dat'
-file_output = './contactnormal2'
+file_output = './xyz4paraview'
 myvtk.VTK3Dhistogram_basic(file_input,file_output)
